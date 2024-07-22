@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,10 +19,10 @@
         <form class="search-form" id="search-form">
           <input
             type="search"
-            placeholder="Enter a city..."
-            class="search-form-input"
-            id="search-form-input"
+            placeholder="Enter a city.."
             required
+            id="search-form-input"
+            class="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
@@ -30,16 +30,18 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city" id="city">Paris</h1>
+            <h1 class="weather-app-city" id="city"></h1>
             <p class="weather-app-details">
-              Tuesday 14:49, scattered clouds
+              <span id="time"></span>,
+              <span id="description"></span>
               <br />
-              Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
             </p>
           </div>
           <div class="weather-app-temperature-container">
-            <div class="weather-app-icon">☀️</div>
-            <div class="weather-app-temperature" id="temperature">54</div>
+            <div id="icon"></div>
+            <div class="weather-app-temperature" id="temperature"></div>
             <div class="weather-app-unit">°F</div>
           </div>
         </div>
