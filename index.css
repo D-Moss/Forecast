@@ -233,14 +233,17 @@ a {
         max-width: 400px;
     }
     .search-form-input {
-        width: 60%;
+        width: 63%;
+        margin-left: -20px;
     }
     .weather-app-city {
         font-size: 25px;
         line-height: 25px;
+        margin-left: -20px;
     }
     .weather-app-details {
         font-size: 10px;
+        margin-left: -20px;
     }
     .weather-app-icon {
         width: 50px;
@@ -261,16 +264,21 @@ a {
         font-size: 10px;
         line-height: 10px;
         margin-bottom: 5px;
+        margin-left: -50px;
     }
     .weather-forecast-icon {
+        margin-left: -17px;
         width: 35px;
         height: 35px;
     }
     .weather-forecast-temperatures {
+        margin-left: -23px;
         margin-top: 5px;
+        padding: 0 7px;
     }
     .weather-forecast-temperature {
-        padding: 0;
+        padding: 0 15.5px;
+        margin-left: -25px;
     }
     footer {
         padding: 15px 0 0 0;
